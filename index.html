@@ -1,10 +1,11 @@
 <html>
     <head>
         <title>Commerce Data Usability Project</title>
-         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
-        <script type="text/javascript" src="ex.js"></script>
+        <script type="text/javascript" src="js/ex.js"></script>
+        <link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.0.2/css/responsive.bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/dataTables.bootstrap.min.css">    
@@ -13,6 +14,7 @@
 "></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+   
     </head>
 
 <body style="font-family: HelveticaNeue-Light;">
@@ -23,8 +25,9 @@
     <span style="font-size:40%">k n o w . j s o n</span></h1></a>
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-12">
-            <h4 id="" style="color:lightgrey"><i>recent</i><hr> </h4>
-            
+            <h3 class="sec">recent </h3>
+            <p> <a href="#search" style="color:black">see all</a></p>
+            <hr>
             <div  id="first_pos"></div>
             
             <hr>
@@ -38,7 +41,9 @@
             <br>
         </div>
         <div class="col-lg-9 col-md-8 col-sm-12" style="border-color:grey">
-            <h4 id="" style="color:lightgrey"><i>featured</i><hr> </h4>
+            <h3 class="sec">featured </h3>
+            <p> <a href="#search" style="color:black">see all</a></p>
+            <hr>
             <div  id="feature"></div>
             
             
@@ -53,7 +58,7 @@
     <section class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3 style="color:grey">search all </h3>
+            <h3 class="sec" id="search">search all </h3>
             <hr>
                <table id="example" class="display" cellspacing="0" width="100%">
                     <thead>
