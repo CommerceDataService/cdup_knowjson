@@ -11,18 +11,18 @@ var data = $.getJSON("know.json", function(json) {
 $( window ).load(function() {
     
     $('#first_pos').empty();
-    $( "#first_pos" ).html("<a href='"+data.responseJSON.data[0][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[0][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4><strong>"+data.responseJSON.data[0][3]+"</strong></h4></a><p>"+data.responseJSON.data[0][4]+"</p>");
+    $( "#first_pos" ).html("<a href='"+data.responseJSON.data[0][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[0][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4 style='font-family:Verdana'>"+data.responseJSON.data[0][3]+"</h4></a><p style='font-family:Georgia'>"+data.responseJSON.data[0][4]+"</p>");
     
     $('#second_pos').empty();
-    $( "#second_pos" ).html("<a href='"+data.responseJSON.data[1][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[1][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4><strong>"+data.responseJSON.data[1][3]+"</strong></h4></a><p>"+data.responseJSON.data[1][4]+"</p>");
+    $( "#second_pos" ).html("<a href='"+data.responseJSON.data[1][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[1][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4 style='font-family:Verdana'>"+data.responseJSON.data[1][3]+"</h4></a><p style='font-family:Georgia'>"+data.responseJSON.data[1][4]+"</p>");
     
     
     $('#third_pos').empty();
-    $( "#third_pos" ).html("<a href='"+data.responseJSON.data[2][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[2][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4><strong>"+data.responseJSON.data[2][3]+"</strong></h4></a><p>"+data.responseJSON.data[2][4]+"</p>");
+    $( "#third_pos" ).html("<a href='"+data.responseJSON.data[2][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[2][0]+".jpg' style='float:right; margin: 0 5 0 5' height=60>" + "<h4 style='font-family:Verdana'>"+data.responseJSON.data[2][3]+"</h4></a><p style='font-family:Georgia'>"+data.responseJSON.data[2][4]+"</p>");
     
     
      $('#feature').empty();
-    $( "#feature" ).html("<a href='"+data.responseJSON.data[3][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[3][0]+".jpg' style='float:left; margin: 0 5 0 5' width=70%>" + "<h4><strong>"+data.responseJSON.data[3][3]+"</strong></h4></a><p>"+data.responseJSON.data[3][4]+"</p>");
+    $( "#feature" ).html("<a href='"+data.responseJSON.data[3][8]+"'<div style='align:justified'><img src='img/"+data.responseJSON.data[3][0]+".jpg' style='float:left; margin: 0 5 0 5' width=70%>" + "<h4 style='font-family:Verdana'>"+data.responseJSON.data[3][3]+"</h4></a><p style='font-family:Georgia'>"+data.responseJSON.data[3][4]+"</p>");
     
     
 });
