@@ -4,42 +4,46 @@
       "Gallery_Tiles.001",
       "Jeff Chen, Star Ying, Ed Kearns",
       "Commerce Data Service",
-      "USING SEVERE HAIL DATA TO UNDERSTAND WEATHER RISKS",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "Goodness, gracious, great balls of HAIL",
+      "Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
-      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
+      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI).",
+       "http://commercedataservice.github.io/tutorial_noaa_hail/"
       
     ],
     [
       "Gallery_Tiles.002",
       "Star Ying",
       "Commerce Data Service, NIST",
-      "MAKING SENSE OF PATTERNS IN CYBER VULNERABILITIES",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "Making sense of cybersecurity patterns",
+      "Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha",
       "Python, D3.js, Dimple.js, dygraphs, Gephi ",
       "NIST's National Vulnerabilities Database (NVD) ",
-      " This work was made possible with the technical review conducted by NIST (NVD)."
+      " This work was made possible with the technical review conducted by NIST (NVD).",
+       "http://commercedataservice.github.io/tutorial_nist_nvd/"
     ],
     [
       "Gallery_Tiles.003",
       "Jeff Chen",
       "Commerce Data Service, NOAA",
-      "NIGHTTIME SATELLITE IMAGERY FOR ECONOMIC RESEARCH (PART 1)",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "Patterns in the dark",
+      "Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
-      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
+      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI).",
+      "http://commercedataservice.github.io/tutorial_viirs_part1/"
     ],
     [
       "Gallery_Tiles.004",
       "Star Ying",
       "Commerce Data Service",
       "FOCUSING OUTREACH USING SURVEY DATA",
-      "or some Americans, this is a real weather phenomenon that risks the physical well-being of people and property. But how often does it happen? Where do these events normally happen? As it turns out, the National Oceanic and Atmospheric Administration (NOAA) collects massive amounts of data on precipitation using radar stations across the country. ",
+      "Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
-      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
+      "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI).",
+      "http://commercedataservice.github.io/tutorial_acs_rank/"
     ],
     [
       "Gallery_Tiles.005",

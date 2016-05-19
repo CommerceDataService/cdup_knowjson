@@ -1,38 +1,38 @@
 {
   "data": [
     [
-      "Gallery_Tiles.001",
+      "<img src='img/Gallery_Tiles.001.jpg' height=150>",
       "Jeff Chen, Star Ying, Ed Kearns",
       "Commerce Data Service",
       "USING SEVERE HAIL DATA TO UNDERSTAND WEATHER RISKS",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "For some Americans, this is a real weather phenomenon that risks the physical well-being of people and property. But how often does it happen? Where do these events normally happen? As it turns out, the National Oceanic and Atmospheric Administration (NOAA) collects massive amounts of data on precipitation using radar stations across the country. ",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
       
     ],
     [
-      "Gallery_Tiles.002",
+      "<img src='img/Gallery_Tiles.002.jpg' height=150>",
       "Star Ying",
       "Commerce Data Service, NIST",
       "MAKING SENSE OF PATTERNS IN CYBER VULNERABILITIES",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "That's the question Americans ask themselves daily. What is a good tradeoff between convenience and security when everything we use seems to require constant updates? How often are the vulnerabilities being discovered, exploited, or patched in the software that powers our lives? How much are we putting ourselves at risk when we ignore our updates? This tutorial uses cybersecurity data from the National Institute of Standards and Technology's (NIST) to uncover vulnerability patterns across the tech world. ",
       "Python, D3.js, Dimple.js, dygraphs, Gephi ",
       "NIST's National Vulnerabilities Database (NVD) ",
       " This work was made possible with the technical review conducted by NIST (NVD)."
     ],
     [
-      "Gallery_Tiles.003",
+      "<img src='img/Gallery_Tiles.003.jpg' height=150>",
       "Jeff Chen",
       "Commerce Data Service, NOAA",
       "NIGHTTIME SATELLITE IMAGERY FOR ECONOMIC RESEARCH (PART 1)",
-      "This article is awesome sauce. Check it out. You won't regret it",
+      "or some Americans, this is a real weather phenomenon that risks the physical well-being of people and property. But how often does it happen? Where do these events normally happen? As it turns out, the National Oceanic and Atmospheric Administration (NOAA) collects massive amounts of data on precipitation using radar stations across the country. ",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.004",
+      "<img src='img/Gallery_Tiles.004.jpg' height=150>",
       "Star Ying",
       "Commerce Data Service",
       "FOCUSING OUTREACH USING SURVEY DATA",
@@ -42,7 +42,7 @@
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.005",
+      "<img src='img/Gallery_Tiles.005.jpg' height=150>",
       "Damon Burgett",
       "Mapbox",
       "WEATHER DATA FOR WEB MAPS: PART 1",
@@ -52,7 +52,7 @@
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.006",
+      "<img src='img/Gallery_Tiles.006.jpg' height=150>",
       "Damon Burgett, Charlie Loyd",
       "Mapbox",
       "LIVING WEATHER DATA FOR WEB MAPS: PART 2",
@@ -62,7 +62,7 @@
       ""
     ]
     ,[
-      "Gallery_Tiles.007",
+      "<img src='img/Gallery_Tiles.007.jpg' height=150>",
       "Aaron Terazas",
       "Zillow",
       "Using severe hail data to understand weather risks",
@@ -72,7 +72,7 @@
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.008",
+      "<img src='img/Gallery_Tiles.008.jpg' height=150>",
       "Dan Hammer, Jeff Chen",
       "The Earth Genome, Commerce Data Service",
       "Using severe hail data to understand weather risks",
