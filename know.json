@@ -24,7 +24,7 @@
        "http://commercedataservice.github.io/tutorial_nist_nvd/"
     ],
     [
-      "Gallery_Tiles.003",
+      "viirs part 1",
       "Jeff Chen",
       "Commerce Data Service, NOAA",
       "Patterns in the dark",
@@ -35,10 +35,10 @@
       "http://commercedataservice.github.io/tutorial_viirs_part1/"
     ],
     [
-      "Gallery_Tiles.004",
+      "acs nonprofits",
       "Star Ying",
       "Commerce Data Service",
-      "FOCUSING OUTREACH USING SURVEY DATA",
+      "Focusing outreach using survey data",
       "Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha wha Wha wha",
       "R with Google Charts and Leaflet.js integration",
       "NOAA Severe Weather Data Inventory (SWDI); US Census Bureau County Shapefiles (TIGER) ",
@@ -46,7 +46,7 @@
       "http://commercedataservice.github.io/tutorial_acs_rank/"
     ],
     [
-      "Gallery_Tiles.005",
+      "mapbox pwat part1",
       "Damon Burgett",
       "Mapbox",
       "WEATHER DATA FOR WEB MAPS: PART 1",
@@ -56,7 +56,7 @@
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.006",
+      "mapbox pwat part2",
       "Damon Burgett, Charlie Loyd",
       "Mapbox",
       "LIVING WEATHER DATA FOR WEB MAPS: PART 2",
@@ -66,7 +66,7 @@
       ""
     ]
     ,[
-      "Gallery_Tiles.007",
+      "zillow",
       "Aaron Terazas",
       "Zillow",
       "Using severe hail data to understand weather risks",
@@ -76,7 +76,7 @@
       "This work was made possible by the collaboration and support of NOAA's National Centers for Environmental Information (NCEI)."
     ],
     [
-      "Gallery_Tiles.008",
+      "earth genome",
       "Dan Hammer, Jeff Chen",
       "The Earth Genome, Commerce Data Service",
       "Using severe hail data to understand weather risks",

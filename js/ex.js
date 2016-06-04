@@ -31,7 +31,6 @@ $( window ).load(function() {
 
 
 //Load up datatables from know.json
-
 $(document).ready(function() {
     $('#example').DataTable( {
         
