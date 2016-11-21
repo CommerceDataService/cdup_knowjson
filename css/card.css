@@ -14,12 +14,14 @@
 .keyword {
     background-color: #e5e5e5;
     border: solid 1px white;
-    color: white;
+    color: black;
     padding: 2px 2px;
     text-align: center;
     display: inline-block;
     border-radius: 4px;
 }
+
+
 
 .pin {
 	display: inline-block;
