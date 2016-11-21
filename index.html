@@ -1,87 +1,93 @@
 <html>
     <head>
         <title>Commerce Data Usability Project</title>
-        <link rel="stylesheet" href="css/jquery.dataTables.min.css">
-        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-        <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-        <script type="text/javascript" src="js/ex.js"></script>
-        <link rel="stylesheet" href="css/custom.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/responsive.bootstrap.min.css">
-        <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">    
-        <script src="js/responsive.bootstrap.min.js"></script>
-        <script src="js/dataTables.responsive.min.js
-"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href='css/coda.css' rel='stylesheet' type='text/css'>
-   
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/populate.js"></script>
+        <link rel="stylesheet" href="css/card.css">
+          <link rel="stylesheet" href="css/landing.css">
+        <link rel="stylesheet" href="css/cursor.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      
     </head>
 
-<body style="font-family: Coda;">
+<body >
 
+    <!-- Header -->
+    <section class="disclaimer-bar">
 
-<section class="container">
-    <h1><a href="know.json">data usability   <img align=right src="img/CDS-horizontal-v2.jpg" height=50 ><br>
-    <span style="font-size:40%">k n o w . j s o n</span></h1></a>
-    <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-12">
-            <h3 class="sec">recent </h3>
-            <p> <a href="#search" style="color:black">see all</a></p>
-            <hr>
-            <div  id="first_pos"></div>
-            
-            <hr>
-            <div  id="second_pos"></div>
-            
-            <hr>
-            <div  id="third_pos">
-       
+            <div class="usa-disclaimer ">
+                <div class="container usa-disclaimer-official ">
+                  <img src="img/usa-flag.png" alt="U.S. flag">
+                  <p>An official website of the U.S. Department of Commerce</p>
+                </div>
             </div>
-            <hr>
-            <br>
-        </div>
-        <div class="col-lg-9 col-md-8 col-sm-12" style="border-color:grey">
-            <h3 class="sec">featured </h3>
-            <p> <a href="#search" style="color:black">see all</a></p>
-            <hr>
-            <div  id="feature"></div>
-            
-            
-        </div>
-    </div>
-    </section>
-    <br><br>
-    
-<section class="container">
+        <div class="container coda-font" >
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 ">
+                  <h1><a href="know.json">data usability <span class="blinking-cursor">|</span>  <br> <span style="font-size:40%">k n o w . j s o n</span></h1></a>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12 ">
+                    <a href="https://www.commerce.gov/dataservice"><img align=right src="img/CDS-horizontal-v2.jpg" height=60 ></a>
+                </div>
+            </div>
+           
 
-    </section>
-    <section class="container">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3 class="sec" id="search">search all </h3>
-            <hr>
-               <table id="example" class="display" cellspacing="0" width="100%">
-                    <thead>
-                        <tr>
-                             <th></th>
-                             <th>asd2</th>
-                             <th>asd3</th>
-                             <th>asd4</th>
-                             <th>asd5</th>
-                             <th>asd6</th>
-                             <th>asd5</th>
-                             <th>asd6</th>
-                        </tr>
-                    </thead>
-        
-                </table>
         </div>
-    </div>
-</section>
+    </section>
     
-    <!-- Modal -->
-  <div id="begin_modal">
-    </div>
+    <!-- Carousel
+     <section class=" container coda-font image-banner transparent" >
+         <img  src="img/banners.gif" opacity=0.5 width=100%/>
+             <h2>The Commerce Data Usability Project </h2> <h3>unlocks opens the foundational knowledge to accelerate the impact of Commerce data. </h3>
+    </section>-->
+    <section class="scroll coda-font">
+       <div class="container" id="righty">
+                        <div class="row">
+
+                            <div class="col-lg-7 col-md-5 col-sm-4 col-xs-0 text-left boxer">
+                            <div class="service-box"  >
+                                    <h1><br>Commerce Data <br>Usability Project</h1>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-7 col-sm-8 col-xs-12    text-left boxer" style="background-color: black ;color:white">
+                               
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+
+    <!-- winning
+     <section class="container" >
+          <img src="http://media2.govtech.com/designimages/DGAA16.png" height = 60/>
+          <img  src="http://fedscoop.com/events/fedscoop50/2016/vote/images/Fedscoop50_Logo-trans.png" height = 60/>
+    </section> -->
+    
+    <!-- Tiles -->
+    <section class="container header-logo">
+        <br>
+        
+        <!--
+        <h3>Tutorials</h3>
+        <p><input type="text" class="quicksearch" placeholder="Search" /></p>
+        -->
+        <div id = "tiles" class="grid"> </div>
+    </section>
+
+   
+   
+    
+  <!-- Modal (haven't added anything) -->
+    <div id="begin_modal"> </div>
   
+  
+    <script src='http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+    <script src='js/search.js'></script>
+
+    
 </body>
 </html>

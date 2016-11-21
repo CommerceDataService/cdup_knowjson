@@ -1,0 +1,17 @@
+import csv  
+import json  
+import chardet
+import pandas as pd
+import os
+
+path = "/Users/sigmamonstr/Github/cdup_knowjson/"
+
+with open(path+'know.csv', 'rb') as f:
+    result = chardet.detect(f.read())  # or readline if the file is large
+
+reader = pd.read_csv(path+"know.csv")
+
+out = reader.to_json(path+"know.json", orient="records")
+
+print "JSON saved!"  
+
