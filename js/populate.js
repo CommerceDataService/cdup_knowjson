@@ -8,11 +8,11 @@ var data = $.getJSON("know.json", function(json) {
 
 $( window ).load(function() {
 
-    for (i = 0; i < data.responseJSON.length; i++) { 
+    for(i = data.responseJSON.length-1; i >=0; i--) { 
         
             //Populate 
             htmlVal = "<a href='"+data.responseJSON[i].URL+"'<div style='align:justified'><img src='img/"+data.responseJSON[i]["Record Name"]+".jpg' style='margin: 0 2 0 2; width:100%'>" + "<h4 style='font-family:Verdana'>"+data.responseJSON[i]["Title"]+"</h4></a><p>"+data.responseJSON[i]["Short Description"]+"</p><br>";
-        
+        console.log(i);
         var keywords = data.responseJSON[i]["Keywords"].split(',');
         
         for (k = 0; k < keywords.length; k++){
